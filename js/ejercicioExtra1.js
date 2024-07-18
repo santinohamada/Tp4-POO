@@ -10,6 +10,9 @@ const persona ={
     edad: Math.abs(parseInt(prompt("Ingrese la edad la de la persona"))),
     hobbies: [prompt("Ingrese un hobbie a la persona")]
 }
+do{
+    agregarHobby(persona);
 
-agregarHobby(persona);
+}
+while(confirm("Desea agregar un nuevo hobbie a la persona?"))
 persona.hobbies.forEach(element => {document.write(`${element}\n`)});

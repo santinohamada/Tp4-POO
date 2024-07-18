@@ -15,4 +15,4 @@ do{
 
 }
 while(confirm("Desea agregar un nuevo hobbie a la persona?"))
-persona.hobbies.forEach(element => {document.write(`${element}\n`)});
+persona.hobbies.forEach(element => {document.write(`${element}<br>`)});

@@ -4,24 +4,23 @@ Por último, utilice el método imprime datos para mostrar por pantalla los valo
 */
 
 class Producto {
-    constructor(codigo,nombre,precio){
-        this.codigo = codigo;
-        this.nombre = nombre;
-        this.precio = Math.abs(precio);
-    }
+  constructor(codigo, nombre, precio) {
+    this.codigo = codigo;
+    this.nombre = nombre;
+    this.precio = Math.abs(precio);
+  }
 
-    imprimeDatos(){
-        document.write(`<p>Codigo: ${this.codigo} </p>`);
-        document.write(`<p>Nombre: ${this.nombre} </p>`);
-        document.write(`<p>Precio: ${this.precio} </p>`);
-    }
-
+  imprimeDatos() {
+    document.write(`<p>Codigo: ${this.codigo} </p>`);
+    document.write(`<p>Nombre: ${this.nombre} </p>`);
+    document.write(`<p>Precio: ${this.precio} </p>`);
+  }
 }
 
-const producto1 = new Producto(1,'Coca-Cola',1800);
-const producto2 = new Producto(2,'Chupetin',200);
-const producto3 = new Producto(3,'Alfajor',700);
+const producto1 = new Producto(1, "Coca-Cola", 1800);
+const producto2 = new Producto(2, "Chupetin", 200);
+const producto3 = new Producto(3, "Alfajor", 700);
 
-const Arreglo = [producto1,producto2,producto3];
+const Arreglo = [producto1, producto2, producto3];
 
-Arreglo.map((item)=>item.imprimeDatos());
+Arreglo.map((item) => item.imprimeDatos());

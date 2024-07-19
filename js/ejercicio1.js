@@ -13,12 +13,11 @@ El auto se apagó
 */
 
 const auto = {
-    color: 'negro',
-    marca: 'audi',
-    modelo: 'A1 Sedán 2024',
-    encender: ()=> document.write('<p>auto encendido</p>'),
-    apagar: ()=> document.write('<p>El auto se apagó</p>')
-    
-}
+  color: "negro",
+  marca: "audi",
+  modelo: "A1 Sedán 2024",
+  encender: () => document.write("<p>auto encendido</p>"),
+  apagar: () => document.write("<p>El auto se apagó</p>"),
+};
 auto.encender();
 auto.apagar();

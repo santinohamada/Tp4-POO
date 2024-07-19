@@ -21,25 +21,25 @@ class Libro {
   }
 
   getISBN() {
-    return this.ISBN
+    return this.ISBN;
   }
   setISBN(ISBN) {
     this.ISBN = ISBN;
   }
   getTitulo() {
-    return this.Titulo
+    return this.Titulo;
   }
   setTitulo(Titulo) {
     this.Titulo = Titulo;
   }
   getAutor() {
-    return this.Autor
+    return this.Autor;
   }
   setAutor(Autor) {
     this.Autor = Autor;
   }
   getNumPaginas() {
-    return this.NumPaginas
+    return this.NumPaginas;
   }
   setNumPaginas(NumPaginas) {
     this.NumPaginas = NumPaginas;
@@ -58,8 +58,8 @@ libro2.setTitulo("1984");
 libro2.setAutor("George Orwell");
 libro2.setNumPaginas(328);
 
-libro1.mostrarLibro()
-libro2.mostrarLibro()
+libro1.mostrarLibro();
+libro2.mostrarLibro();
 libro1.getNumPaginas() > libro2.getNumPaginas()
   ? document.write(`${libro1.Titulo} tiene mas paginas`)
   : document.write(`${libro2.Titulo} tiene mas paginas`);

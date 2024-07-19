@@ -103,9 +103,9 @@ class Persona {
   }
 }
 
-const persona1 = new Persona("Santino",20,'H',80,173,2004);
+const persona1 = new Persona("Santino", 20, "H", 80, 173, 2004);
 
-persona1.esMayorDeEdad()
+persona1.esMayorDeEdad();
 persona1.generarDni();
-document.write(`<p> ${persona1.dni}</p>`)
-persona1.mostrarGeneracion()
+document.write(`<p> ${persona1.dni}</p>`);
+persona1.mostrarGeneracion();
